@@ -1,0 +1,35 @@
+*{border:0;
+margin:0;}
+
+h1.tieude {font-family: 'Josefin Slab', serif;font-weight: 100;text-align: center;margin: 17px 0;font-size: 37px;margin-bottom: 100px;}
+
+h2.tdkhoi {
+    float: right;
+    height: 35px;
+}
+
+.motkhoi {
+    border-bottom: 1px solid lightskyblue;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+}
+
+.someanh {
+    overflow: hidden;
+}
+
+img.anhnho {
+    height: 100px;
+    float: left;
+}
+
+body {
+    background-image: url(../images/nen.png);
+}
+
+.noidung {
+    width: 40%;
+    font-family: 'Josefin Slab';
+    /* text-align: center; */
+    margin: auto;
+}
