@@ -1,26 +1,6 @@
-*{border:0;
-margin:0;}
-
-h1.tieude {font-family: 'Josefin Slab', serif;font-weight: 100;text-align: center;margin: 17px 0;font-size: 37px;margin-bottom: 100px;}
-
-h2.tdkhoi {
-    float: right;
-    height: 35px;
-}
-
-.motkhoi {
-    border-bottom: 1px solid lightskyblue;
-    padding-bottom: 40px;
-    margin-bottom: 40px;
-}
-
-.someanh {
-    overflow: hidden;
-}
-
-img.anhnho {
-    height: 100px;
-    float: left;
+*{
+    border:0;
+    margin:0;
 }
 
 body {
@@ -33,3 +13,54 @@ body {
     /* text-align: center; */
     margin: auto;
 }
+
+h1.tieude {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 20px;
+    text-align: center;
+    margin: 17px 0;
+    font-size: 35px;
+    margin-bottom: 100px;
+
+}
+
+.noidung .motkhoi {
+   border-bottom: 1px solid lightskyblue;
+   padding-bottom: 30px; 
+   margin-bottom: 30px;
+}
+
+h2.tdkhoi {
+    height: 20px;
+    font-size:50px;
+    margin-bottom: 30px;
+}
+.tdkhoi.xanh{
+    color:lightblue;
+}
+h2.tdkhoi img{
+    float:right;
+    transition: 0.4s;
+    /* padding-top: 10px; */
+    margin-top: 20px;
+   /*  transform: rotate(180deg); */
+}
+h2.tdkhoi.xanh img{
+    transition: 0.8s;
+    transform: rotate(180deg);
+}
+.ndkhoi{
+    line-height: 20px;
+    color: gray;
+    font-size: 20px;
+}
+
+.someanh {
+    overflow: hidden;
+}
+
+img.anhnho {
+    height: 100px;
+    float: left;
+}
+
